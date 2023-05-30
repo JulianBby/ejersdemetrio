@@ -1,191 +1,200 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css">
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"></script>
-    <title>TALLER 1</title>
-    <script src="ejercicios.js"></script>
-    <link rel="stylesheet" type="text/css" href="ejercicios.css"> 
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap" rel="stylesheet">  
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"></script>
+  <title>TALLER</title>
+  <link rel="icon" type="image/png" href="icons8-js-64.png">
+  <script src="ejercicios.js"></script>
+  <link rel="stylesheet" type="text/css" href="ejercicios.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap" rel="stylesheet">
 </head>
 
 <body>
-<div class="p-3 mb-2 bg-info-subtle text-emphasis-info">
-  
-
-
-<div class="grid container">
-<header class="header">  
-  <nav class="navbar"></nav>
-  <div>
-    <h1 class="titulo_principal"><span class="t1">TALLER DE PROGRAMACIÓN</span> <br> Julián Marquez.</h1>
-  </div>
-  <div>
-    <h3 class="subtitulo">Ejercicios de algoritmia.<br> <span class="sub1"></span></h3>
-  </div>
-  
-
-  <div class="prueba">
-    <button value="Ejercicios" id="btn_principal" class="btn btn-info" onclick="navegar()">
-      Ver ejercicios
-  </button>
-  </div>
-
-</header>
-
-<article class="main"></article>
-<div></div>
-  
-    <div class="div1" id="div1"></div>
-    <div class="separador2">
-      <img src="descarga3.jpg" alt="" srcset="">
-    </div>
-    <ol></ol>
-
-
-
-
-    <div class="container text-center">
-        <div class="row" id="julian">
-          <div class="col">
-            EJER 1
-            <input type="submit"  class="btn btn-success" onclick="cuadradonumero()" >
-          <div id="tabla1" >
-
-          </div>
+  <div class="p-3 mb-2 bg-info-subtle text-emphasis-info">
+    <div class="grid container">
+      <header class="header">
+        <div>
+          <h1 class="titulo_principal"><span class="t1">TALLER DE PROGRAMACIÓN</span> <br> Julián Marquez.</h1>
         </div>
-          
-          <div class="col">
-            EJER 2
-            <input type="submit"  class="btn btn-success" onclick="ej2()">
-            <div id="impar"></div>
-            
-          </div>
+        <div>
+          <h3 class="subtitulo">Ejercicios de algoritmia.<br> <span class="sub1"></span></h3>
         </div>
-        <div class="row">
-          <div class="col">
-            EJER 3
-            <input type="submit" class="btn btn-success" onclick="paresdescendentes()"><br>
-            <input class="pares" type="number" id="pares" name="pares" placeholder="Numero natural: ">
-            <input class="pares1" type="text" id="pares1" name="pares1" placeholder="El resultado es:" disabled>
-          </div>
-        
-          <div class="col">
-            EJER 4
-            <input type="submit" class="btn btn-success" onclick="promedio()">
-            
-          </div>
-          <div class="col">
-            EJER 5
-            <input type="submit" class="btn btn-success" onclick="numerobuscado()"><br>
-            
-            <input class="arreglo" type="number" id="arreglo" name="arreglo" placeholder="Numero para buscar: ">
-            <input class="arreglo1" type="text" id="arreglo1" name="arreglo1" placeholder="El arreglo es:" disabled>
-            <input class="arreglo2" type="text" id="arreglo2" name="arreglo2" placeholder="El numero buscado es:" disabled>
-            <input class="arreglo3" type="text" id="arreglo3" name="arreglo3" placeholder="El arreglo esta en la posicion:" disabled>
 
-          </div>
+
+        <div class="prueba">
+          <button value="Ejercicios" id="btn_principal" class="btn btn-info" onclick="navegar()">
+            Ver ejercicios
+          </button>
         </div>
+
+      </header>
+      <nav class="navbar">Espacio para almacenar</nav>
+      <section>
+
+
+        <article class="main">
+        <div></div>
+
+        <div class="div1" id="div1"></div>
+        <div class="separador2">
+          <img src="descarga3.jpg" alt="" srcset="">
+        </div>
+        <ol></ol>
+
+
+
+
+        <div class="container text-center">
+          <div class="row" id="julian">
+            <div class="col">
+              EJER 1
+              <input type="submit" class="btn btn-success" onclick="cuadradonumero()">
+              <div id="tabla1">
+
+              </div>
+            </div>
+
+            <div class="col">
+              EJER 2
+              <input type="submit" class="btn btn-success" onclick="ej2()">
+              <div id="impar"></div>
+
+            </div>
+          </div>
+          <div class="row">
+            <div class="col">
+              EJER 3
+              <input type="submit" class="btn btn-success" onclick="paresdescendentes()"><br>
+              <input class="pares" type="number" id="pares" name="pares" placeholder="Numero natural: "><br>
+              <input class="pares1" type="text" id="pares1" name="pares1" placeholder="El resultado es:" disabled>
+            </div>
+
+            <div class="col">
+              EJER 4
+              <input type="submit" class="btn btn-success" onclick="promedio()">
+
+            </div>
+            <div class="col">
+              EJER 5
+              <input type="submit" class="btn btn-success" onclick="numerobuscado()"><br>
+
+              <input class="arreglo" type="number" id="arreglo" name="arreglo" placeholder="Numero para buscar: ">
+              <input class="arreglo1" type="text" id="arreglo1" name="arreglo1" placeholder="El arreglo es:" disabled>
+              <input class="arreglo2" type="text" id="arreglo2" name="arreglo2" placeholder="El numero buscado es:"
+                disabled>
+              <input class="arreglo3" type="text" id="arreglo3" name="arreglo3"
+                placeholder="El arreglo esta en la posicion:" disabled>
+
+            </div>
+          </div>
           <div class="row">
             <div class="col">
               EJER 6
               <input type="submit" class="btn btn-success" onclick="arreglo()"><br>
-              <input class="numero" type="number" id="numero" name="numero" placeholder="Numero hasta donde llega el arreglo: "><br>
+              <input class="numero" type="number" id="numero" name="numero"
+                placeholder="Numero hasta donde llega el arreglo: "><br>
               <input class="numero1" type="text" id="numero1" name="numero1" placeholder="El arreglo es:" disabled>
             </div>
             <div class="col">
               EJER 7
               <input type="submit" class="btn btn-success" onclick="arreglorepetido()"><br>
-              <input class="repetido" type="text" id="repetido" name="repetido" placeholder="El arreglo es:" disabled><br>
-              <input class="repetido1" type="text" id="repetido1" name="repetido1" placeholder="Los valores se repiten:" disabled>
+              <input class="repetido" type="text" id="repetido" name="repetido" placeholder="El arreglo es:"
+                disabled><br>
+              <input class="repetido1" type="text" id="repetido1" name="repetido1" placeholder="Los valores se repiten:"
+                disabled>
             </div>
+          </div>
+          <div class="row">
+            <div class="col">
+              EJER 8
+              <input type="submit" class="btn btn-success" onclick="operacion()"><br>
+              <input class="decimal" type="number" id="decimal" name="decimal"
+                placeholder="Decimal para convertir:"><br>
+              <input class="decimal1" type="text" id="decimal1" name="decimal1" placeholder="En binario es: " disabled>
             </div>
-            <div class="row">
-                <div class="col">
-                  EJER 8
-                  <input type="submit" class="btn btn-success" onclick="operacion()"><br>
-                  <input class="decimal" type="number" id="decimal" name="decimal" placeholder="Decimal para convertir: ">
-                  <input class="decimal1" type="text" id="decimal1" name="decimal1" placeholder="En binario es: " disabled>
-                </div>
-                <div class="col">
-                    EJER 9
-                    <input type="submit" class="btn btn-success" onclick="enviarbinario()"><br>
-                    <input class="binario" type="number" id="binario" name="binario" placeholder="Binario para convertir: ">
-                    <input class="binario1" type="text" id="binario1" name="binario1" placeholder="En decimal es: " disabled>
-                  </div>
-                  
-                  <div class="col">
-                 10Y11
-                    <input type="submit" class="btn btn-success" onclick="multiplicar()"><br>
-                    <input class="num1" type="number" id="num1" name="num1" placeholder="Numero1: ">
-                    <input class="num2" type="number" id="num2" name="num2" placeholder="Numero2: ">
-                    <input class="num3" type="number" id="num3" name="num3" placeholder="Numero3: ">
-                    <input class="num4" type="number" id="num4" name="num4" placeholder="Numero1: ">
-                    <input class="num5" type="number" id="num5" name="num5" placeholder="Numero2: ">
-                    <input class="num6" type="number" id="num6" name="num6" placeholder="Numero3: ">
-                    <input class="mul" type="text" id="mul" name="mul" placeholder="Multiplicacion PA: " disabled>
-                    <input class="mul1" type="text" id="mul1" name="mul1" placeholder="Multiplicacion SA: " disabled>
-                    <input class="mul2" type="text" id="mul2" name="mul2" placeholder="Multiplicacion: " disabled>
-                    <input class="mul3" type="text" id="mul3" name="mul3" placeholder="Producto: " disabled>
+            <div class="col">
+              EJER 9
+              <input type="submit" class="btn btn-success" onclick="enviarbinario()"><br>
+              <input class="binario" type="number" id="binario" name="binario" placeholder="Binario para convertir: ">
+              <input class="binario1" type="text" id="binario1" name="binario1" placeholder="En decimal es: " disabled>
+            </div>
+
+            <div class="col">
+              10Y11
+              <input type="submit" class="btn btn-success" onclick="multiplicar()"><br>
+              <input class="num1" type="number" id="num1" name="num1" placeholder="Numero1: ">
+              <input class="num2" type="number" id="num2" name="num2" placeholder="Numero2: ">
+              <input class="num3" type="number" id="num3" name="num3" placeholder="Numero3: ">
+              <input class="num4" type="number" id="num4" name="num4" placeholder="Numero1: ">
+              <input class="num5" type="number" id="num5" name="num5" placeholder="Numero2: ">
+              <input class="num6" type="number" id="num6" name="num6" placeholder="Numero3: ">
+              <input class="mul" type="text" id="mul" name="mul" placeholder="Multiplicacion PA: " disabled>
+              <input class="mul1" type="text" id="mul1" name="mul1" placeholder="Multiplicacion SA: " disabled>
+              <input class="mul2" type="text" id="mul2" name="mul2" placeholder="Multiplicacion: " disabled>
+              <input class="mul3" type="text" id="mul3" name="mul3" placeholder="Producto: " disabled>
 
 
             </div>
+          </div>
+          <div class="row">
+            <div class="col">
+              EJER 12
+              <input type="submit" class="btn btn-success" onclick="poblacion()"><br>
+              <input class="pob" type="text" id="pob" name="pob"
+                placeholder="La población del país B superará a la poblacion del pais A:" disabled>
             </div>
-            <div class="row">
-                <div class="col">
-                  EJER 12
-                  <input type="submit" class="btn btn-success" onclick="poblacion()"><br>
-                  <input class="pob" type="text" id="pob" name="pob" placeholder="La población del país B superará a la poblacion del pais A:" disabled>
-                </div>
-                <div class="col">
-                EJER 13
-                <input type="submit"  class="btn btn-success" onclick="">
-                </div>
-                </div>
-                <div class="row">
-                  <div class="col">
-                    EJER 14
-                    <input type="submit" class="btn btn-success" onclick="transformar()"><br>
-                    <input class="trans" type="text" id="trans" name="trans" placeholder="El resultado en while es:" disabled>
-                  </div>
-                  <div class="col">
-                    EJER15
-                    <input type="submit" class="btn btn-success" onclick="aleatorios()">
-                  </div>
-                  <div class="col">
-                    EJER16
-                        <input type="submit" class="btn btn-success" onclick="maximom2()"><br>
-                        <input class="max" type="text" id="max" name="max" placeholder="MCD entre 2 numeros:" disabled>
-                </div>
-                </div>
-                <div class="row">
-                  <div class="col">
-                    EJER 17
-                    <input type="submit" class="btn btn-success" onclick="fibonacci2()"><br>
-                    <input class="fib" type="text" id="fib" name="fib" placeholder="La famosa serie Fibonacci:" disabled>
-                  </div>
-                  <div class="col">
-                    EJER 18
-                    <input type="submit"  class="btn btn-success" onclick="">
-                    </div>
-                    </div>
-                
-
-        
-        
-</div>
-</div>
-</div>
-</div>
+            <div class="col">
+              EJER 13
+              <input type="submit" class="btn btn-success" onclick="">
+            </div>
+          </div>
+          <div class="row">
+            <div class="col">
+              EJER 14
+              <input type="submit" class="btn btn-success" onclick="transformar()"><br>
+              <input class="trans" type="text" id="trans" name="trans" placeholder="El resultado en while es:" disabled>
+            </div>
+            <div class="col">
+              EJER15
+              <input type="submit" class="btn btn-success" onclick="aleatorios()">
+            </div>
+            <div class="col">
+              EJER16
+              <input type="submit" class="btn btn-success" onclick="maximom2()"><br>
+              <input class="max" type="text" id="max" name="max" placeholder="MCD entre 2 numeros:" disabled>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col">
+              EJER 17
+              <input type="submit" class="btn btn-success" onclick="fibonacci2()"><br>
+              <input class="fib" type="text" id="fib" name="fib" placeholder="La famosa serie Fibonacci:" disabled>
+            </div>
+            <div class="col">
+              EJER 18
+              <input type="submit" class="btn btn-success" onclick="">
+            </div>
+          </div>
 
 
-    
-    
+
+
+        </div>
+    </div>
+  </div>
+  </div>
+</article>
+  </section>
+  </div>
+
+
 </body>
 
 </html>

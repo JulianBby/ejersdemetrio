@@ -321,7 +321,7 @@ function arreglorepetido() {
     // Mostrar los resultados de elementos repetidos en el elemento con ID "repetido1"
     var resultado = "";
     for (let num in repetidos) {
-        resultado += "El número " + num + " se repite " + repetidos[num] + " veces<br>";
+        resultado += "El número " + num + " se repite " + repetidos[num] + " veces";
 
     }
     repetidoOutput.value =`${resultado}`; 

@@ -6,6 +6,7 @@
 }
 
 .grid-container {
+  
     font-family: courtier;
     font-weight: 100;
     font-size: 20px;
@@ -13,7 +14,7 @@
     display: grid;
     grid-template-areas:
         "header"
-        "navbar"
+        "nav"
         "main"
         "footer"
     ;
@@ -179,3 +180,4 @@ button {
     overflow: scroll;
     display: none;
   }
+
